@@ -1,0 +1,9 @@
+# Ignore image dataset folder
+plant-village-dataset/
+aug/
+
+# Ignore .old folder
+.old/
+
+# Ignore checkpoints folder
+.ipynb_checkpoints
