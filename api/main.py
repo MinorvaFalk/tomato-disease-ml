@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, UploadFile, File, WebSocket, WebSock
 from fastapi.middleware.cors import CORSMiddleware
 from uvicorn import run
 
-from model.request import RequestImageBase64
+from model.request import RequestImageBase64, RequestImagesBase64
 from utils import helpers, connManager
 from resources import resourcePing, resourcePredict
 
@@ -44,6 +44,28 @@ async def still_image_base64(
     imageBase64 = helpers.string_base64_to_image(request.imageString)
     image = helpers.read_image(imageBase64)
     return resourcePredict.predict(image)
+
+@app.post("/still_images_base64")
+async def still_images_base64(
+    request: RequestImagesBase64
+):
+    result = []
+
+    for image in request.images:
+        imageBase64 = helpers.string_base64_to_image(image.imageString)
+        imageBase64 = helpers.read_image(imageBase64)
+
+        predictions =  resourcePredict.predict(imageBase64)
+
+        result.append({
+            "index": image.index,
+            "class_names": predictions['class_name'],
+            "confidence": predictions['confidence']
+        })
+
+    return {
+        "result" : result
+    }
 
 
 # Handler for still image with image form data
