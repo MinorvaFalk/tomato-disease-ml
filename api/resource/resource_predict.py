@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-from utils.class_names import CLASS_NAMES
+from util.class_names import CLASS_NAMES
 
 MODEL = tf.keras.models.load_model("./models/3/pb/")
 

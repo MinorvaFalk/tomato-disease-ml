@@ -1,18 +1,21 @@
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import FastAPI, HTTPException, UploadFile, File, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
-from regex import P
 from uvicorn import run
 
-
 from model.request import RequestImageBase64
-from utils.helper import read_image, string_base64_to_image
+from utils import helpers, connManager
 from resources import resourcePing, resourcePredict
 
-import base64
+import json
 
-import tensorflow as tf
-
-app = FastAPI()
+app = FastAPI(
+    title= "Tomato Disease",
+    description=
+    """
+    Visit localhost:8080/docs for Documentation
+    """,
+    version= "1.0.0"
+)
 
 # Middleware configuration
 origins = ["*"]
@@ -27,23 +30,48 @@ app.add_middleware(
     allow_headers = headers   
 )
 
+
 @app.get("/")
 async def root():
     return resourcePing.ping()
 
+
+# Handler for still image with Base64 body
 @app.post("/still_image_base64")
 async def still_image_base64(
     request: RequestImageBase64
 ):
-    image = read_image(string_base64_to_image(request.imageString))
+    imageBase64 = helpers.string_base64_to_image(request.imageString)
+    image = helpers.read_image(imageBase64)
     return resourcePredict.predict(image)
 
+
+# Handler for still image with image form data
 @app.post("/still_image")
 async def still_image(
     file: UploadFile = File(...)
 ):
-    image = read_image(await file.read())
+    image = helpers.read_image(await file.read())
     return resourcePredict.predict(image)
+
+
+# Handler for web socket for live detection
+@app.websocket("/ws/live_detection")
+async def live_detection(websocket: WebSocket):
+    await connManager.connect(websocket)
+
+    try :
+        while True:
+            data = await websocket.receive_json()
+            
+            imageBase64 = helpers.string_base64_to_image(data["imageString"])
+            image = helpers.read_image(imageBase64)
+
+            await connManager.send_message(json.dumps(resourcePredict.predict(image)), websocket)
+
+    except WebSocketDisconnect:
+        connManager.disconnect(websocket)
+        await connManager.broadcast(f"Client disconnected")
     
 
 if __name__ == "__main__":
