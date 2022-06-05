@@ -7,8 +7,10 @@ from io import BytesIO
 
 # Open image and convert to numpy array to feed to model
 def read_file_as_image(data) -> np.ndarray:
-    image = np.array(Image.open(BytesIO(data)))
-    return image[...,:3]
+    image = Image.open(BytesIO(data))
+    image = image.convert('RGB')
+    image = np.array(image)
+    return image
 
 # Model require [[]] data and 224x224 image size
 def resize_to_224_and_expand(image):

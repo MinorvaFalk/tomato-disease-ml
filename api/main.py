@@ -59,7 +59,7 @@ async def still_images_base64(
 
         result.append({
             "index": image.index,
-            "class_names": predictions['class_name'],
+            "class_name": predictions['class_name'],
             "confidence": predictions['confidence']
         })
 
@@ -92,8 +92,8 @@ async def live_detection(websocket: WebSocket):
             await connManager.send_message(json.dumps(resourcePredict.predict(image)), websocket)
 
     except WebSocketDisconnect:
+        print("Client disconnected")
         connManager.disconnect(websocket)
-        await connManager.broadcast(f"Client disconnected")
     
 
 if __name__ == "__main__":

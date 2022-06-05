@@ -3,7 +3,8 @@ import numpy as np
 
 from util.class_names import CLASS_NAMES
 
-MODEL = tf.keras.models.load_model("./models/3/pb/")
+# MODEL = tf.keras.models.load_model("./models/3/pb/")
+MODEL = tf.keras.models.load_model("./models/7")
 
 class Predict:
     def predict(self, image):

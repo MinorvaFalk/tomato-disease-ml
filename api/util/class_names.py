@@ -8,5 +8,6 @@ CLASS_NAMES = [
     'Tomato Target_Spot',
     'Tomato Yellow Leaf Curl Virus',
     'Tomato Tomato Mosaic Virus',
-    'Tomato Healthy'
+    'Tomato Healthy',
+    'Unknown'
  ]
