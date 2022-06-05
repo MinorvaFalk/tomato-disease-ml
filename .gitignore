@@ -10,5 +10,8 @@ aug-segmented/
 # Ignore checkpoints folder
 .ipynb_checkpoints
 
+# Ignore models for tf-serving
+tf-model/
+
 # Ignore __pycache__
 __pycache__/
