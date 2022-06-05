@@ -1,6 +1,18 @@
 # 🍅 Tomato Disease Detection
----
-Tomato leaf disease detection using EfficientNetB0 for transfer learning
+
+## 📌 Overview
+This repository containing notebook and endpoint for tomato disease detection using Android App.
+
+This model is trained with `700 random image` from Cifar 100 Resized for unknown class.
+
+For model accuracy you can check each model version inside `notebooks/models`
+
+Model Used: `EfficientNetB0`
+
+### Dataset :
+- [Tomato Disease](https://www.kaggle.com/datasets/charuchaudhry/plantvillage-tomato-leaf-dataset)
+- [Plant Disease](https://www.kaggle.com/datasets/emmarex/plantdisease)
+- [Cifar100 Resized 256](https://www.kaggle.com/datasets/ibraheemmoosa/cifar100-256x256)
 
 ## 📌 Requirements
 
