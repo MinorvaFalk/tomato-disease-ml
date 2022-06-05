@@ -82,7 +82,7 @@ To expose the API to the Internet you can use `Ngrok` or `Localtunnel`
   ```cmd 
   ngrok http 8080
   ```
-- Localtunnel
+- `Localtunnel`\
   For installation you might need to check [here](https://localtunnel.github.io/www/)
   ```cmd
   lt --port 8080
