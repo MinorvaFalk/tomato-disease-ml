@@ -1,6 +1,8 @@
 # Ignore image dataset folder
 plant-village-dataset/
+plant-village-dataset-segmented/
 aug/
+aug-segmented/
 
 # Ignore .old folder
 .old/
