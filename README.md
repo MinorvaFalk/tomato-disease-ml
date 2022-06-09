@@ -74,7 +74,7 @@ You can run manually using `cmd` or `Docker`\
   ```
 
 ### `📝 Hosting for Mobile App`
-Check the mobile app [here](google.com)\
+Check the mobile app [here](https://github.com/MinorvaFalk/tomato_disease_android)\
 To expose the API to the Internet you can use `Ngrok` or `Localtunnel`
 
 - `Ngrok`\
@@ -82,7 +82,7 @@ To expose the API to the Internet you can use `Ngrok` or `Localtunnel`
   ```cmd 
   ngrok http 8080
   ```
-- Localtunnel
+- `Localtunnel`\
   For installation you might need to check [here](https://localtunnel.github.io/www/)
   ```cmd
   lt --port 8080
