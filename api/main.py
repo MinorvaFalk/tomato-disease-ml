@@ -1,12 +1,18 @@
-from fastapi import FastAPI, HTTPException, UploadFile, File, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, Request, HTTPException, UploadFile, File, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from uvicorn import run
+
 
 from model.request import RequestImageBase64, RequestImagesBase64
 from utils import helpers, connManager
 from resources import resourcePing, resourcePredict
 
 import json
+import time
+import logging
+
+# create log file
+logging.basicConfig(filename='./logs/request.log', encoding='utf-8', level=logging.INFO)
 
 app = FastAPI(
     title= "Tomato Disease",
@@ -29,6 +35,14 @@ app.add_middleware(
     allow_methods = methods,
     allow_headers = headers   
 )
+
+@app.middleware("http")
+async def add_process_time_header(request: Request, call_next):
+    start_time = time.time()
+    response = await call_next(request)
+    # print("Time took to process the request and return response is {} sec".format(time.time() - start_time))
+    logging.info("Endpoint response time {}".format(time.time() - start_time))
+    return response
 
 
 @app.get("/")

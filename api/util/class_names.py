@@ -5,7 +5,7 @@ CLASS_NAMES = [
     'Tomato Leaf Mold',
     'Tomato Septoria Leaf Spot',
     'Tomato Spider Mites',
-    'Tomato Target_Spot',
+    'Tomato Target Spot',
     'Tomato Yellow Leaf Curl Virus',
     'Tomato Tomato Mosaic Virus',
     'Tomato Healthy',

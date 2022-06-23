@@ -1,6 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import requests
+import logging
 
 from util.class_names import CLASS_NAMES
 
@@ -8,7 +9,7 @@ from util.class_names import CLASS_NAMES
 # http://localhost:8051/v1/models/${MODEL_NAME}[/versions/${VERSION}|/labels/${LABEL}]:predict
 # For more infocheck https://www.tensorflow.org/tfx/serving/api_rest
 
-ENDPOINT = "http://localhost:8501/v1/models/tomato-disease/versions/2:predict"
+ENDPOINT = "http://localhost:8501/v1/models/tomato-disease/versions/3:predict"
 
 # Loading model locally
 # MODEL = tf.keras.models.load_model("[model_path]")
@@ -25,6 +26,8 @@ class Predict:
         }
 
         response = requests.post(ENDPOINT, json=json_data)
+        logging.info("TF Serving response time {}".format(response.elapsed.total_seconds()))
+
         prediction = np.array(response.json()["predictions"][0])
         
 

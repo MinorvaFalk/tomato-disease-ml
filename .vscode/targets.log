@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 08 08:53:26 2022
+# Make data base, printed on Thu Jun 23 14:51:31 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ USERPROFILE = C:\Users\Minorva
 # environment
 LOCALAPPDATA = C:\Users\Minorva\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-22c863ea-42b6-428c-9d5d-2bcb1f16c380-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a30dd29b-0b0d-4a2e-bbf5-a72e52fe76c9-sock
 # environment
 VSCODE_CWD = C:\Users\Minorva\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -39,7 +39,7 @@ GOPATH = C:\Users\Minorva\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24720_QULHKPATMLMWWYAY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8604_ATJATJDXZIFTQNPW
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -53,7 +53,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Minorva\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = C:\Users\Minorva\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -93,7 +93,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 24720
+VSCODE_PID = 8604
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -163,7 +163,7 @@ GNUMAKEFLAGS :=
 # environment
 OS = Windows_NT
 # makefile
-.DEFAULT_GOAL := deploy-tf-serving
+.DEFAULT_GOAL := tf-serving
 # default
 MAKE_VERSION := 4.3
 # environment
@@ -191,7 +191,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Minorva\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\a1e0e28d0f6d1809a53efc7ce98ffd95-1.67.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\a1e0e28d0f6d1809a53efc7ce98ffd95-1.68.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -217,7 +217,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 151 Stepping 5, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Minorva/notebooks/tomato-disease-detection, mtime 1654626143): 13 files, no impossibilities.
+# . (key c:/Users/Minorva/notebooks/tomato-disease-detection, mtime 1654781684): 13 files, no impossibilities.
 
 # 13 files, no impossibilities in 1 directories.
 
@@ -227,10 +227,11 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 151 Stepping 5, GenuineIntel
 
 # Files
 
-deploy-tf-serving:
+tf-serving:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File has n 
+ot been updated.
 #  recipe to execute (from 'Makefile', line 2):
 	docker run -t --rm -p 8501:8501 -v C:/Users/Minorva/notebooks/tomato-disease-detection:/tomato-disease tensorflow/serving \
 	--rest_api_port=8501 \
@@ -239,7 +240,7 @@ deploy-tf-serving:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-05 16:45:51
+#  Last modified 2022-06-09 16:30:45
 #  File has been updated.
 #  Successfully updated.
 
@@ -264,12 +265,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 148 B / avg = 8 B
-# current buf: size = 8174 B / used = 148 B / count = 17 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 141 B / avg = 8 B
+# current buf: size = 8174 B / used = 141 B / count = 17 / avg = 8 B
 
 # strcache performance: lookups = 22 / hit rate = 22%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Wed Jun 08 08:53:26 2022
+# Finished Make data base on Thu Jun 23 14:51:31 2022
 
  

@@ -1,0 +1,851 @@
+INFO:hypercorn.error:Running on http://127.0.0.1:8080 (CTRL + C to quit)
+
+=== STILL IMAGE ===
+
+INFO:root:TF Serving response time 0.041603
+INFO:root:Endpoint response time 0.10899996757507324
+[2022-06-09 22:30:10 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:30:10 +0700] "POST /still_image 1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.035907
+INFO:root:Endpoint response time 0.0816354751586914
+[2022-06-09 22:30:32 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:30:32 +0700] "POST /still_image 1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.045016
+INFO:root:Endpoint response time 0.12992382049560547
+[2022-06-09 22:30:40 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:30:40 +0700] "POST /still_image 1.1" 200 68 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.03987
+INFO:root:Endpoint response time 0.09865951538085938
+[2022-06-09 22:30:46 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:30:46 +0700] "POST /still_image 1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.060927
+INFO:root:Endpoint response time 0.08198118209838867
+[2022-06-09 22:30:53 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:30:53 +0700] "POST /still_image 1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.03496
+INFO:root:Endpoint response time 0.09592986106872559
+[2022-06-09 22:31:00 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:31:00 +0700] "POST /still_image 1.1" 200 67 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.031835
+INFO:root:Endpoint response time 0.1081383228302002
+[2022-06-09 22:31:07 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:31:07 +0700] "POST /still_image 1.1" 200 58 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.036641
+INFO:root:Endpoint response time 0.09752559661865234
+[2022-06-09 22:31:12 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:31:12 +0700] "POST /still_image 1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.039621
+INFO:root:Endpoint response time 0.05956745147705078
+[2022-06-09 22:31:18 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:31:18 +0700] "POST /still_image 1.1" 200 55 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.037364
+INFO:root:Endpoint response time 0.09829020500183105
+[2022-06-09 22:31:37 +0700] [13316] [INFO] 127.0.0.1:56221 - - [09/Jun/2022:22:31:37 +0700] "POST /still_image 1.1" 200 41 "-" "PostmanRuntime/7.29.0"
+
+=== STILL IMAGE BASE 64 ===
+
+INFO:root:TF Serving response time 0.037375
+INFO:root:Endpoint response time 0.10572648048400879
+[2022-06-09 23:07:06 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:07:06 +0700] "POST /still_image_base64 1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.036202
+INFO:root:Endpoint response time 0.05737495422363281
+[2022-06-09 23:08:07 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:08:07 +0700] "POST /still_image_base64 1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.031461
+INFO:root:Endpoint response time 0.09396696090698242
+[2022-06-09 23:08:31 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:08:31 +0700] "POST /still_image_base64 1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.045234
+INFO:root:Endpoint response time 0.11277914047241211
+[2022-06-09 23:08:41 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:08:41 +0700] "POST /still_image_base64 1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.034393
+INFO:root:Endpoint response time 0.09579086303710938
+[2022-06-09 23:08:49 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:08:49 +0700] "POST /still_image_base64 1.1" 200 58 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.035232
+INFO:root:Endpoint response time 0.1984574794769287
+[2022-06-09 23:08:56 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:08:56 +0700] "POST /still_image_base64 1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.031282
+INFO:root:Endpoint response time 0.10415124893188477
+[2022-06-09 23:09:02 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:09:02 +0700] "POST /still_image_base64 1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.034769
+INFO:root:Endpoint response time 0.09661746025085449
+[2022-06-09 23:09:07 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:09:07 +0700] "POST /still_image_base64 1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.034104
+INFO:root:Endpoint response time 0.05445408821105957
+[2022-06-09 23:09:12 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:09:12 +0700] "POST /still_image_base64 1.1" 200 68 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.032497
+INFO:root:Endpoint response time 0.09710383415222168
+[2022-06-09 23:09:18 +0700] [13316] [INFO] 127.0.0.1:55213 - - [09/Jun/2022:23:09:18 +0700] "POST /still_image_base64 1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+=== STILL IMAGES BASE 64 ===
+
+INFO:root:TF Serving response time 0.047689
+INFO:root:TF Serving response time 0.029391
+INFO:root:TF Serving response time 0.036311
+INFO:root:TF Serving response time 0.033697
+INFO:root:TF Serving response time 0.031069
+INFO:root:Endpoint response time 0.6566553115844727
+[2022-06-09 23:17:56 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:17:56 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.034152
+INFO:root:TF Serving response time 0.033498
+INFO:root:TF Serving response time 0.031036
+INFO:root:TF Serving response time 0.032735
+INFO:root:TF Serving response time 0.0332
+INFO:root:Endpoint response time 0.670809268951416
+[2022-06-09 23:18:03 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:03 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.032224
+INFO:root:TF Serving response time 0.030834
+INFO:root:TF Serving response time 0.032651
+INFO:root:TF Serving response time 0.032918
+INFO:root:TF Serving response time 0.030024
+INFO:root:Endpoint response time 0.4616858959197998
+[2022-06-09 23:18:04 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:04 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.035113
+INFO:root:TF Serving response time 0.058744
+INFO:root:TF Serving response time 0.03289
+INFO:root:TF Serving response time 0.033414
+INFO:root:TF Serving response time 0.031653
+INFO:root:Endpoint response time 0.7363879680633545
+[2022-06-09 23:18:06 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:06 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.036998
+INFO:root:TF Serving response time 0.032374
+INFO:root:TF Serving response time 0.032761
+INFO:root:TF Serving response time 0.032038
+INFO:root:TF Serving response time 0.032504
+INFO:root:Endpoint response time 0.5220506191253662
+[2022-06-09 23:18:07 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:07 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.032859
+INFO:root:TF Serving response time 0.035924
+INFO:root:TF Serving response time 0.033569
+INFO:root:TF Serving response time 0.033178
+INFO:root:TF Serving response time 0.032308
+INFO:root:Endpoint response time 0.3922572135925293
+[2022-06-09 23:18:11 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:11 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.035245
+INFO:root:TF Serving response time 0.032943
+INFO:root:TF Serving response time 0.031924
+INFO:root:TF Serving response time 0.029518
+INFO:root:TF Serving response time 0.032641
+INFO:root:Endpoint response time 0.3464541435241699
+[2022-06-09 23:18:12 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:12 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.034574
+INFO:root:TF Serving response time 0.032338
+INFO:root:TF Serving response time 0.032981
+INFO:root:TF Serving response time 0.032832
+INFO:root:TF Serving response time 0.032618
+INFO:root:Endpoint response time 0.5077996253967285
+[2022-06-09 23:18:13 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:13 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.032709
+INFO:root:TF Serving response time 0.031091
+INFO:root:TF Serving response time 0.03754
+INFO:root:TF Serving response time 0.032316
+INFO:root:TF Serving response time 0.034286
+INFO:root:Endpoint response time 0.40039491653442383
+[2022-06-09 23:18:15 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:15 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+INFO:root:TF Serving response time 0.036064
+INFO:root:TF Serving response time 0.02978
+INFO:root:TF Serving response time 0.029618
+INFO:root:TF Serving response time 0.034912
+INFO:root:TF Serving response time 0.029393
+INFO:root:Endpoint response time 0.5695018768310547
+[2022-06-09 23:18:16 +0700] [13316] [INFO] 127.0.0.1:52933 - - [09/Jun/2022:23:18:16 +0700] "POST /still_images_base64 1.1" 200 407 "-" "PostmanRuntime/7.29.0"
+
+=== WEBSOCKET ===
+
+[2022-06-09 23:31:07 +0700] [13316] [INFO] 127.0.0.1:49746 - - [09/Jun/2022:23:31:07 +0700] "GET /ws/live_detection 1.1" 101 - "-" "-"
+INFO:root:TF Serving response time 0.035015
+INFO:root:TF Serving response time 0.034521
+INFO:root:TF Serving response time 0.032314
+INFO:root:TF Serving response time 0.029216
+INFO:root:TF Serving response time 0.030125
+INFO:root:TF Serving response time 0.033091
+INFO:root:TF Serving response time 0.032679
+INFO:root:TF Serving response time 0.03281
+INFO:root:TF Serving response time 0.031698
+INFO:root:TF Serving response time 0.032902
+
+===INFO:root:TF Serving response time 0.042135
+INFO:root:Endpoint response time 0.3079259395599365
+[2022-06-10 02:29:28 +0700] [13316] [INFO] 127.0.0.1:61026 - - [10/Jun/2022:02:29:28 +0700] "POST /still_images_base64 1.1" 200 84 "-" "okhttp/4.9.3"
+[2022-06-10 03:50:52 +0700] [13316] [INFO] 127.0.0.1:65525 - - [10/Jun/2022:03:50:52 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+[2022-06-10 03:51:21 +0700] [13316] [INFO] 127.0.0.1:65528 - - [10/Jun/2022:03:51:21 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+INFO:root:TF Serving response time 0.205144
+INFO:root:TF Serving response time 0.078371
+INFO:root:TF Serving response time 0.051987
+INFO:root:TF Serving response time 0.082373
+INFO:root:TF Serving response time 0.046965
+INFO:root:TF Serving response time 0.06008
+INFO:root:TF Serving response time 0.074347
+INFO:root:TF Serving response time 0.034733
+INFO:root:TF Serving response time 0.035676
+INFO:root:TF Serving response time 0.036788
+INFO:root:TF Serving response time 0.035113
+INFO:root:TF Serving response time 0.054796
+INFO:root:TF Serving response time 0.04941
+INFO:root:TF Serving response time 0.038286
+INFO:root:TF Serving response time 0.031225
+INFO:root:TF Serving response time 0.03712
+INFO:root:TF Serving response time 0.033488
+INFO:root:TF Serving response time 0.034074
+INFO:root:TF Serving response time 0.035003
+INFO:root:TF Serving response time 0.031283
+INFO:root:TF Serving response time 0.036219
+INFO:root:TF Serving response time 0.030854
+INFO:root:TF Serving response time 0.032104
+INFO:root:TF Serving response time 0.031535
+INFO:root:TF Serving response time 0.033155
+INFO:root:TF Serving response time 0.033724
+INFO:root:TF Serving response time 0.034347
+INFO:root:TF Serving response time 0.034055
+INFO:root:TF Serving response time 0.031968
+INFO:root:TF Serving response time 0.033171
+INFO:root:TF Serving response time 0.034077
+INFO:root:TF Serving response time 0.034557
+INFO:root:TF Serving response time 0.032354
+INFO:root:TF Serving response time 0.032829
+INFO:root:TF Serving response time 0.032498
+INFO:root:TF Serving response time 0.031863
+INFO:root:TF Serving response time 0.034086
+INFO:root:TF Serving response time 0.033205
+INFO:root:TF Serving response time 0.033552
+INFO:root:TF Serving response time 0.03137
+INFO:root:TF Serving response time 0.031734
+INFO:root:TF Serving response time 0.030704
+INFO:root:TF Serving response time 0.033229
+INFO:root:TF Serving response time 0.032211
+INFO:root:TF Serving response time 0.031919
+INFO:root:TF Serving response time 0.031559
+INFO:root:TF Serving response time 0.031124
+INFO:root:TF Serving response time 0.031367
+INFO:root:TF Serving response time 0.03564
+INFO:root:TF Serving response time 0.033219
+INFO:root:TF Serving response time 0.032671
+INFO:root:TF Serving response time 0.031692
+INFO:root:TF Serving response time 0.092063
+INFO:root:TF Serving response time 0.031804
+INFO:root:TF Serving response time 0.032298
+INFO:root:TF Serving response time 0.030171
+INFO:root:TF Serving response time 0.030341
+INFO:root:TF Serving response time 0.030906
+INFO:root:TF Serving response time 0.031513
+INFO:root:TF Serving response time 0.030846
+INFO:root:TF Serving response time 0.03099
+INFO:root:TF Serving response time 0.030727
+INFO:root:TF Serving response time 0.029936
+INFO:root:TF Serving response time 0.031553
+INFO:root:TF Serving response time 0.035378
+INFO:root:TF Serving response time 0.032125
+INFO:root:TF Serving response time 0.031424
+INFO:root:TF Serving response time 0.031527
+INFO:root:TF Serving response time 0.034334
+INFO:root:TF Serving response time 0.033297
+INFO:root:TF Serving response time 0.03165
+INFO:root:TF Serving response time 0.03203
+INFO:root:TF Serving response time 0.029995
+INFO:root:TF Serving response time 0.032127
+INFO:root:TF Serving response time 0.057195
+INFO:root:TF Serving response time 0.030311
+INFO:root:TF Serving response time 0.031506
+INFO:root:TF Serving response time 0.033412
+INFO:root:TF Serving response time 0.032091
+INFO:root:TF Serving response time 0.032698
+INFO:root:TF Serving response time 0.030659
+INFO:root:TF Serving response time 0.033195
+INFO:root:TF Serving response time 0.035321
+INFO:root:TF Serving response time 0.03132
+INFO:root:TF Serving response time 0.029659
+INFO:root:TF Serving response time 0.033939
+INFO:root:TF Serving response time 0.032156
+INFO:root:TF Serving response time 0.029669
+INFO:root:TF Serving response time 0.033599
+INFO:root:TF Serving response time 0.031994
+INFO:root:TF Serving response time 0.03238
+INFO:root:TF Serving response time 0.035292
+INFO:root:TF Serving response time 0.03608
+INFO:root:TF Serving response time 0.029874
+INFO:root:TF Serving response time 0.033992
+INFO:root:TF Serving response time 0.032137
+INFO:root:TF Serving response time 0.03191
+INFO:root:TF Serving response time 0.031105
+INFO:root:TF Serving response time 0.03196
+INFO:root:TF Serving response time 0.030268
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-434' coro=<worker_serve.<locals>._server_callback() done, defined at C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py:98> exception=ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)>
+Traceback (most recent call last):
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py", line 100, in _server_callback
+    await TCPServer(app, loop, config, context, reader, writer)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 88, in run
+    await self._close()
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 131, in _close
+    await self.writer.wait_closed()
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 359, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 110, in _read_data
+    data = await asyncio.wait_for(self.reader.read(MAX_RECV), self.config.read_timeout)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 665, in read
+    raise self._exception
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\proactor_events.py", line 299, in _loop_reading
+    self._read_fut = self._loop._proactor.recv(self._sock, 32768)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\windows_events.py", line 449, in recv
+    ov.WSARecv(conn.fileno(), nbytes, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+[2022-06-10 03:51:38 +0700] [13316] [INFO] 127.0.0.1:49247 - - [10/Jun/2022:03:51:38 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+INFO:root:TF Serving response time 0.035363
+INFO:root:TF Serving response time 0.032113
+INFO:root:TF Serving response time 0.057856
+INFO:root:TF Serving response time 0.03201
+INFO:root:TF Serving response time 0.029584
+INFO:root:TF Serving response time 0.033008
+INFO:root:TF Serving response time 0.030274
+INFO:root:TF Serving response time 0.029772
+INFO:root:TF Serving response time 0.030777
+INFO:root:TF Serving response time 0.032558
+INFO:root:TF Serving response time 0.033851
+INFO:root:TF Serving response time 0.032352
+INFO:root:TF Serving response time 0.031331
+INFO:root:TF Serving response time 0.031869
+INFO:root:TF Serving response time 0.031376
+INFO:root:TF Serving response time 0.030863
+INFO:root:TF Serving response time 0.032179
+INFO:root:TF Serving response time 0.034123
+INFO:root:TF Serving response time 0.030717
+INFO:root:TF Serving response time 0.031503
+INFO:root:TF Serving response time 0.032657
+INFO:root:TF Serving response time 0.032182
+INFO:root:TF Serving response time 0.032727
+INFO:root:TF Serving response time 0.032296
+INFO:root:TF Serving response time 0.032232
+INFO:root:TF Serving response time 0.033149
+INFO:root:TF Serving response time 0.030938
+INFO:root:TF Serving response time 0.031668
+INFO:root:TF Serving response time 0.033239
+INFO:root:TF Serving response time 0.031926
+INFO:root:TF Serving response time 0.029713
+INFO:root:TF Serving response time 0.032858
+INFO:root:TF Serving response time 0.030365
+INFO:root:TF Serving response time 0.035564
+INFO:root:TF Serving response time 0.033913
+INFO:root:TF Serving response time 0.03288
+INFO:root:TF Serving response time 0.030965
+INFO:root:TF Serving response time 0.034076
+INFO:root:TF Serving response time 0.031997
+INFO:root:TF Serving response time 0.03059
+INFO:root:TF Serving response time 0.032206
+INFO:root:TF Serving response time 0.057043
+INFO:root:TF Serving response time 0.030732
+INFO:root:TF Serving response time 0.060658
+INFO:root:TF Serving response time 0.031351
+INFO:root:TF Serving response time 0.032103
+INFO:root:TF Serving response time 0.033108
+INFO:root:TF Serving response time 0.029041
+INFO:root:TF Serving response time 0.031169
+INFO:root:TF Serving response time 0.03176
+INFO:root:TF Serving response time 0.030376
+INFO:root:TF Serving response time 0.032536
+INFO:root:TF Serving response time 0.02979
+INFO:root:TF Serving response time 0.030596
+INFO:root:TF Serving response time 0.094177
+INFO:root:TF Serving response time 0.031204
+INFO:root:TF Serving response time 0.031239
+INFO:root:TF Serving response time 0.030638
+INFO:root:TF Serving response time 0.031933
+INFO:root:TF Serving response time 0.033625
+INFO:root:TF Serving response time 0.030196
+INFO:root:TF Serving response time 0.030299
+INFO:root:TF Serving response time 0.030343
+[2022-06-10 03:51:46 +0700] [13316] [INFO] 127.0.0.1:49312 - - [10/Jun/2022:03:51:46 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+INFO:root:TF Serving response time 0.030415
+INFO:root:TF Serving response time 0.03192
+INFO:root:TF Serving response time 0.031427
+INFO:root:TF Serving response time 0.031918
+INFO:root:TF Serving response time 0.031878
+INFO:root:Endpoint response time 1.5658018589019775
+[2022-06-10 03:52:42 +0700] [13316] [INFO] 127.0.0.1:49317 - - [10/Jun/2022:03:52:42 +0700] "POST /still_images_base64 1.1" 200 364 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.050903
+INFO:root:Endpoint response time 4.1312220096588135
+[2022-06-10 03:54:23 +0700] [13316] [INFO] 127.0.0.1:49317 - - [10/Jun/2022:03:54:23 +0700] "POST /still_image_base64 1.1" 200 60 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.037159
+INFO:root:TF Serving response time 0.050231
+INFO:root:TF Serving response time 0.029191
+INFO:root:TF Serving response time 0.033811
+INFO:root:TF Serving response time 0.029435
+INFO:root:Endpoint response time 2.7629473209381104
+[2022-06-10 03:55:31 +0700] [13316] [INFO] 127.0.0.1:49317 - - [10/Jun/2022:03:55:31 +0700] "POST /still_images_base64 1.1" 200 366 "-" "okhttp/4.9.3"
+[2022-06-10 03:55:58 +0700] [13316] [INFO] 127.0.0.1:49356 - - [10/Jun/2022:03:55:58 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+INFO:root:TF Serving response time 0.029967
+INFO:root:TF Serving response time 0.032622
+INFO:root:TF Serving response time 0.032137
+INFO:root:TF Serving response time 0.030786
+INFO:root:TF Serving response time 0.03096
+INFO:root:TF Serving response time 0.031917
+INFO:root:TF Serving response time 0.033184
+INFO:root:TF Serving response time 0.031727
+INFO:root:TF Serving response time 0.031633
+INFO:root:TF Serving response time 0.033791
+INFO:root:TF Serving response time 0.055373
+INFO:root:TF Serving response time 0.030449
+INFO:root:TF Serving response time 0.028587
+INFO:root:TF Serving response time 0.034137
+INFO:root:TF Serving response time 0.032676
+INFO:root:TF Serving response time 0.032122
+INFO:root:TF Serving response time 0.030401
+INFO:root:TF Serving response time 0.030421
+INFO:root:TF Serving response time 0.032128
+INFO:root:TF Serving response time 0.030123
+INFO:root:TF Serving response time 0.029717
+INFO:root:TF Serving response time 0.029592
+INFO:root:TF Serving response time 0.030732
+INFO:root:TF Serving response time 0.030196
+INFO:root:TF Serving response time 0.032512
+INFO:root:TF Serving response time 0.030594
+INFO:root:TF Serving response time 0.031613
+INFO:root:TF Serving response time 0.030679
+INFO:root:TF Serving response time 0.032308
+INFO:root:TF Serving response time 0.031034
+INFO:root:TF Serving response time 0.061192
+INFO:root:TF Serving response time 0.030666
+INFO:root:TF Serving response time 0.032026
+INFO:root:TF Serving response time 0.033293
+INFO:root:TF Serving response time 0.031835
+INFO:root:TF Serving response time 0.031631
+INFO:root:TF Serving response time 0.030521
+INFO:root:TF Serving response time 0.030391
+INFO:root:TF Serving response time 0.031083
+INFO:root:TF Serving response time 0.032154
+INFO:root:TF Serving response time 0.083566
+INFO:root:TF Serving response time 0.032627
+INFO:root:TF Serving response time 0.032505
+INFO:root:TF Serving response time 0.032158
+INFO:root:TF Serving response time 0.033605
+INFO:root:TF Serving response time 0.032042
+INFO:root:TF Serving response time 0.031607
+INFO:root:TF Serving response time 0.033169
+INFO:root:TF Serving response time 0.032305
+INFO:root:TF Serving response time 0.029532
+INFO:root:TF Serving response time 0.030332
+INFO:root:TF Serving response time 0.029837
+INFO:root:TF Serving response time 0.035201
+INFO:root:TF Serving response time 0.088197
+INFO:root:TF Serving response time 0.030552
+INFO:root:TF Serving response time 0.032015
+INFO:root:TF Serving response time 0.03216
+INFO:root:TF Serving response time 0.031628
+INFO:root:TF Serving response time 0.029125
+INFO:root:TF Serving response time 0.030293
+INFO:root:TF Serving response time 0.030361
+INFO:root:TF Serving response time 0.030673
+INFO:root:TF Serving response time 0.033085
+INFO:root:TF Serving response time 0.032299
+INFO:root:TF Serving response time 0.030473
+INFO:root:TF Serving response time 0.031886
+INFO:root:TF Serving response time 0.028488
+INFO:root:TF Serving response time 0.031802
+INFO:root:TF Serving response time 0.032079
+INFO:root:TF Serving response time 0.033952
+INFO:root:TF Serving response time 0.029767
+INFO:root:TF Serving response time 0.030067
+INFO:root:TF Serving response time 0.075227
+INFO:root:TF Serving response time 0.031603
+INFO:root:TF Serving response time 0.030944
+INFO:root:TF Serving response time 0.030872
+INFO:root:TF Serving response time 0.030019
+INFO:root:TF Serving response time 0.065907
+INFO:root:TF Serving response time 0.03266
+INFO:root:TF Serving response time 0.031419
+INFO:root:TF Serving response time 0.030205
+INFO:root:TF Serving response time 0.031446
+INFO:root:TF Serving response time 0.031623
+INFO:root:TF Serving response time 0.029979
+INFO:root:TF Serving response time 0.031654
+INFO:root:TF Serving response time 0.029685
+INFO:root:TF Serving response time 0.078787
+INFO:root:TF Serving response time 0.031514
+INFO:root:TF Serving response time 0.031526
+INFO:root:TF Serving response time 0.02991
+INFO:root:TF Serving response time 0.030908
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-458' coro=<worker_serve.<locals>._server_callback() done, defined at C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py:98> exception=ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)>
+Traceback (most recent call last):
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py", line 100, in _server_callback
+    await TCPServer(app, loop, config, context, reader, writer)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 88, in run
+    await self._close()
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 131, in _close
+    await self.writer.wait_closed()
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 359, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 110, in _read_data
+    data = await asyncio.wait_for(self.reader.read(MAX_RECV), self.config.read_timeout)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 665, in read
+    raise self._exception
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\proactor_events.py", line 299, in _loop_reading
+    self._read_fut = self._loop._proactor.recv(self._sock, 32768)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\windows_events.py", line 449, in recv
+    ov.WSARecv(conn.fileno(), nbytes, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+INFO:root:TF Serving response time 0.082467
+INFO:root:Endpoint response time 0.1535027027130127
+[2022-06-10 04:15:37 +0700] [13316] [INFO] 127.0.0.1:49487 - - [10/Jun/2022:04:15:37 +0700] "POST /still_image_base64 1.1" 200 60 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.060792
+INFO:root:Endpoint response time 0.1236569881439209
+[2022-06-10 04:15:47 +0700] [13316] [INFO] 127.0.0.1:49487 - - [10/Jun/2022:04:15:47 +0700] "POST /still_image_base64 1.1" 200 48 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.042968
+INFO:root:Endpoint response time 0.14328551292419434
+[2022-06-10 04:17:16 +0700] [13316] [INFO] 127.0.0.1:49487 - - [10/Jun/2022:04:17:16 +0700] "POST /still_image_base64 1.1" 200 48 "-" "okhttp/4.9.3"
+INFO:hypercorn.error:Running on http://127.0.0.1:8080 (CTRL + C to quit)
+[2022-06-13 21:15:36 +0700] [8464] [INFO] 127.0.0.1:58229 - - [13/Jun/2022:21:15:36 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+INFO:root:TF Serving response time 0.571039
+INFO:root:TF Serving response time 0.037252
+INFO:root:TF Serving response time 0.037352
+INFO:root:TF Serving response time 0.034569
+INFO:root:TF Serving response time 0.036755
+INFO:root:TF Serving response time 0.055834
+INFO:root:TF Serving response time 0.038244
+INFO:root:TF Serving response time 0.040978
+INFO:root:TF Serving response time 0.034963
+INFO:root:TF Serving response time 0.038571
+INFO:root:TF Serving response time 0.035778
+INFO:root:TF Serving response time 0.043604
+INFO:root:TF Serving response time 0.037461
+INFO:root:TF Serving response time 0.037154
+INFO:root:TF Serving response time 0.039508
+INFO:root:TF Serving response time 0.035467
+INFO:root:TF Serving response time 0.037007
+INFO:root:TF Serving response time 0.037335
+INFO:root:TF Serving response time 0.033347
+INFO:root:TF Serving response time 0.034701
+INFO:root:TF Serving response time 0.034941
+INFO:root:TF Serving response time 0.032775
+INFO:root:TF Serving response time 0.034979
+INFO:root:TF Serving response time 0.034244
+INFO:root:TF Serving response time 0.038663
+INFO:root:TF Serving response time 0.034545
+INFO:root:TF Serving response time 0.037795
+INFO:root:TF Serving response time 0.080754
+INFO:root:TF Serving response time 0.041185
+INFO:root:TF Serving response time 0.042433
+INFO:root:TF Serving response time 0.03338
+INFO:root:TF Serving response time 0.038435
+INFO:root:TF Serving response time 0.036814
+INFO:root:TF Serving response time 0.034855
+INFO:root:TF Serving response time 0.033268
+INFO:root:TF Serving response time 0.033578
+INFO:root:TF Serving response time 0.031071
+[2022-06-13 21:15:52 +0700] [8464] [INFO] 127.0.0.1:58276 - - [13/Jun/2022:21:15:52 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+INFO:root:TF Serving response time 0.035843
+INFO:root:TF Serving response time 0.034857
+INFO:root:TF Serving response time 0.046773
+INFO:root:TF Serving response time 0.034137
+INFO:root:TF Serving response time 0.033792
+INFO:root:TF Serving response time 0.035174
+INFO:root:TF Serving response time 0.03152
+INFO:root:TF Serving response time 0.034822
+INFO:root:TF Serving response time 0.036889
+INFO:root:TF Serving response time 0.035868
+INFO:root:TF Serving response time 0.033336
+INFO:root:TF Serving response time 0.032525
+INFO:root:TF Serving response time 0.032337
+INFO:root:TF Serving response time 0.034598
+INFO:root:TF Serving response time 0.036269
+INFO:root:TF Serving response time 0.036842
+INFO:root:TF Serving response time 0.034927
+INFO:root:TF Serving response time 0.034844
+INFO:root:TF Serving response time 0.032007
+INFO:root:TF Serving response time 0.033212
+INFO:root:TF Serving response time 0.036073
+INFO:root:TF Serving response time 0.033703
+INFO:root:TF Serving response time 0.036709
+INFO:root:TF Serving response time 0.034315
+INFO:root:TF Serving response time 0.034929
+INFO:root:TF Serving response time 0.033099
+INFO:root:TF Serving response time 0.033804
+INFO:root:TF Serving response time 0.034737
+INFO:root:TF Serving response time 0.034522
+INFO:root:TF Serving response time 0.032413
+INFO:root:TF Serving response time 0.034192
+INFO:root:TF Serving response time 0.032649
+INFO:root:TF Serving response time 0.033837
+INFO:root:TF Serving response time 0.031758
+INFO:root:TF Serving response time 0.034977
+INFO:root:TF Serving response time 0.032511
+INFO:root:TF Serving response time 0.034696
+INFO:root:TF Serving response time 0.0336
+INFO:root:TF Serving response time 0.035404
+INFO:root:TF Serving response time 0.033219
+INFO:root:TF Serving response time 0.032603
+INFO:root:TF Serving response time 0.032688
+INFO:root:TF Serving response time 0.031386
+INFO:root:TF Serving response time 0.032395
+INFO:root:TF Serving response time 0.036908
+INFO:root:TF Serving response time 0.039453
+INFO:root:TF Serving response time 0.033109
+INFO:root:TF Serving response time 0.032294
+INFO:root:TF Serving response time 0.038414
+INFO:root:TF Serving response time 0.035422
+INFO:root:TF Serving response time 0.032004
+INFO:root:TF Serving response time 0.034374
+INFO:root:TF Serving response time 0.033747
+INFO:root:TF Serving response time 0.034711
+INFO:root:TF Serving response time 0.031948
+INFO:root:TF Serving response time 0.032794
+INFO:root:TF Serving response time 0.034379
+INFO:root:TF Serving response time 0.037427
+INFO:root:TF Serving response time 0.035749
+INFO:root:TF Serving response time 0.040088
+INFO:root:TF Serving response time 0.032163
+INFO:root:TF Serving response time 0.030956
+INFO:root:TF Serving response time 0.031696
+INFO:root:TF Serving response time 0.032683
+INFO:root:TF Serving response time 0.03162
+INFO:root:TF Serving response time 0.035249
+INFO:root:TF Serving response time 0.035219
+INFO:root:TF Serving response time 0.033819
+INFO:root:TF Serving response time 0.0327
+INFO:root:TF Serving response time 0.035385
+INFO:root:TF Serving response time 0.033404
+INFO:root:TF Serving response time 0.033278
+INFO:root:TF Serving response time 0.032414
+INFO:root:TF Serving response time 0.030417
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<worker_serve.<locals>._server_callback() done, defined at C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py:98> exception=ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)>
+Traceback (most recent call last):
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py", line 100, in _server_callback
+    await TCPServer(app, loop, config, context, reader, writer)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 88, in run
+    await self._close()
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 131, in _close
+    await self.writer.wait_closed()
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 359, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 110, in _read_data
+    data = await asyncio.wait_for(self.reader.read(MAX_RECV), self.config.read_timeout)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 684, in read
+    await self._wait_for_data('read')
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 95, in protocol_send
+    await self.writer.drain()
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 375, in drain
+    raise exc
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\proactor_events.py", line 299, in _loop_reading
+    self._read_fut = self._loop._proactor.recv(self._sock, 32768)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\windows_events.py", line 449, in recv
+    ov.WSARecv(conn.fileno(), nbytes, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+[2022-06-13 21:16:09 +0700] [8464] [INFO] 127.0.0.1:60157 - - [13/Jun/2022:21:16:09 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+[2022-06-13 21:16:16 +0700] [8464] [INFO] 127.0.0.1:60161 - - [13/Jun/2022:21:16:16 +0700] "GET /ws/live_detection 1.1" 101 - "-" "Ktor client"
+INFO:root:TF Serving response time 0.036629
+INFO:root:TF Serving response time 0.03108
+INFO:root:TF Serving response time 0.036864
+INFO:root:TF Serving response time 0.03036
+INFO:root:TF Serving response time 0.029492
+INFO:root:TF Serving response time 0.032739
+INFO:root:TF Serving response time 0.031593
+INFO:root:TF Serving response time 0.031889
+INFO:root:TF Serving response time 0.031243
+INFO:root:TF Serving response time 0.032763
+INFO:root:TF Serving response time 0.031862
+INFO:root:TF Serving response time 0.036185
+INFO:root:TF Serving response time 0.03372
+INFO:root:TF Serving response time 0.033938
+INFO:root:TF Serving response time 0.035157
+INFO:root:TF Serving response time 0.031328
+INFO:root:TF Serving response time 0.030849
+INFO:root:TF Serving response time 0.031756
+INFO:root:TF Serving response time 0.03381
+INFO:root:TF Serving response time 0.032187
+INFO:root:TF Serving response time 0.031357
+INFO:root:TF Serving response time 0.031572
+INFO:root:TF Serving response time 0.030807
+INFO:root:TF Serving response time 0.036402
+INFO:root:TF Serving response time 0.033051
+INFO:root:TF Serving response time 0.036173
+INFO:root:TF Serving response time 0.032895
+INFO:root:TF Serving response time 0.031903
+INFO:root:TF Serving response time 0.033047
+INFO:root:TF Serving response time 0.032109
+INFO:root:TF Serving response time 0.030258
+INFO:root:TF Serving response time 0.033043
+INFO:root:TF Serving response time 0.031852
+INFO:root:TF Serving response time 0.032112
+INFO:root:TF Serving response time 0.032618
+INFO:root:TF Serving response time 0.029881
+INFO:root:TF Serving response time 0.034211
+INFO:root:TF Serving response time 0.071272
+INFO:root:TF Serving response time 0.033306
+INFO:root:TF Serving response time 0.032915
+INFO:root:TF Serving response time 0.033561
+INFO:root:TF Serving response time 0.033457
+INFO:root:TF Serving response time 0.034656
+INFO:root:TF Serving response time 0.037888
+INFO:root:TF Serving response time 0.030461
+INFO:root:TF Serving response time 0.035897
+INFO:root:TF Serving response time 0.034093
+INFO:root:TF Serving response time 0.034962
+INFO:root:TF Serving response time 0.031601
+INFO:root:TF Serving response time 0.033727
+INFO:root:TF Serving response time 0.029432
+INFO:root:TF Serving response time 0.032394
+INFO:root:TF Serving response time 0.033524
+INFO:root:TF Serving response time 0.03253
+INFO:root:TF Serving response time 0.02991
+INFO:root:TF Serving response time 0.030916
+INFO:root:TF Serving response time 0.035429
+INFO:root:TF Serving response time 0.03724
+INFO:root:TF Serving response time 0.032856
+INFO:root:TF Serving response time 0.033225
+INFO:root:TF Serving response time 0.031989
+INFO:root:TF Serving response time 0.031162
+INFO:root:TF Serving response time 0.033226
+INFO:root:TF Serving response time 0.033727
+INFO:root:TF Serving response time 0.033237
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<worker_serve.<locals>._server_callback() done, defined at C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py:98> exception=ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)>
+Traceback (most recent call last):
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\run.py", line 100, in _server_callback
+    await TCPServer(app, loop, config, context, reader, writer)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 88, in run
+    await self._close()
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 131, in _close
+    await self.writer.wait_closed()
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 359, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\Minorva\anaconda3\lib\site-packages\hypercorn\asyncio\tcp_server.py", line 110, in _read_data
+    data = await asyncio.wait_for(self.reader.read(MAX_RECV), self.config.read_timeout)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\streams.py", line 665, in read
+    raise self._exception
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\proactor_events.py", line 299, in _loop_reading
+    self._read_fut = self._loop._proactor.recv(self._sock, 32768)
+  File "C:\Users\Minorva\anaconda3\lib\asyncio\windows_events.py", line 449, in recv
+    ov.WSARecv(conn.fileno(), nbytes, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+INFO:root:TF Serving response time 0.038805
+INFO:root:Endpoint response time 0.10913825035095215
+[2022-06-13 21:18:11 +0700] [8464] [INFO] 127.0.0.1:60265 - - [13/Jun/2022:21:18:11 +0700] "POST /still_images_base64 1.1" 200 83 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.034827
+INFO:root:Endpoint response time 0.312100887298584
+[2022-06-13 21:18:16 +0700] [8464] [INFO] 127.0.0.1:60265 - - [13/Jun/2022:21:18:16 +0700] "POST /still_images_base64 1.1" 200 83 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.033287
+INFO:root:TF Serving response time 0.035411
+INFO:root:Endpoint response time 0.8525018692016602
+[2022-06-13 21:18:28 +0700] [8464] [INFO] 127.0.0.1:60265 - - [13/Jun/2022:21:18:28 +0700] "POST /still_images_base64 1.1" 200 154 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.036407
+INFO:root:Endpoint response time 0.9263358116149902
+[2022-06-13 21:18:37 +0700] [8464] [INFO] 127.0.0.1:60265 - - [13/Jun/2022:21:18:37 +0700] "POST /still_images_base64 1.1" 200 83 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.045057
+INFO:root:TF Serving response time 0.03561
+INFO:root:TF Serving response time 0.03519
+INFO:root:TF Serving response time 0.035129
+INFO:root:TF Serving response time 0.034193
+INFO:root:Endpoint response time 3.2900540828704834
+[2022-06-13 21:41:26 +0700] [8464] [INFO] 127.0.0.1:58864 - - [13/Jun/2022:21:41:26 +0700] "POST /still_images_base64 1.1" 200 362 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.033414
+INFO:root:TF Serving response time 0.034356
+INFO:root:TF Serving response time 0.031926
+INFO:root:TF Serving response time 0.032605
+INFO:root:Endpoint response time 4.686893701553345
+[2022-06-13 21:41:44 +0700] [8464] [INFO] 127.0.0.1:58864 - - [13/Jun/2022:21:41:44 +0700] "POST /still_images_base64 1.1" 200 295 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.032527
+INFO:root:TF Serving response time 0.033077
+INFO:root:TF Serving response time 0.034515
+INFO:root:TF Serving response time 0.032859
+INFO:root:TF Serving response time 0.033744
+INFO:root:Endpoint response time 4.265626668930054
+[2022-06-13 21:42:17 +0700] [8464] [INFO] 127.0.0.1:58864 - - [13/Jun/2022:21:42:17 +0700] "POST /still_images_base64 1.1" 200 362 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.33757
+INFO:root:Endpoint response time 0.842292070388794
+[2022-06-14 01:01:47 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:01:47 +0700] "POST /still_image_base64 1.1" 200 71 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.072243
+INFO:root:Endpoint response time 0.45426154136657715
+[2022-06-14 01:01:52 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:01:52 +0700] "POST /still_image_base64 1.1" 200 71 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.048629
+INFO:root:Endpoint response time 1.9142241477966309
+[2022-06-14 01:02:05 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:02:05 +0700] "POST /still_image_base64 1.1" 200 60 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.086727
+INFO:root:Endpoint response time 0.3555893898010254
+[2022-06-14 01:02:10 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:02:10 +0700] "POST /still_image_base64 1.1" 200 61 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.095173
+INFO:root:Endpoint response time 0.37397146224975586
+[2022-06-14 01:02:17 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:02:17 +0700] "POST /still_image_base64 1.1" 200 67 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.094822
+INFO:root:Endpoint response time 0.2641570568084717
+[2022-06-14 01:02:23 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:02:23 +0700] "POST /still_image_base64 1.1" 200 48 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.037116
+INFO:root:Endpoint response time 3.7294423580169678
+[2022-06-14 01:02:42 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:02:42 +0700] "POST /still_image_base64 1.1" 200 49 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.075934
+INFO:root:Endpoint response time 4.445815324783325
+[2022-06-14 01:02:58 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:02:58 +0700] "POST /still_image_base64 1.1" 200 49 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.038005
+INFO:root:Endpoint response time 0.19902467727661133
+[2022-06-14 01:03:11 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:03:11 +0700] "POST /still_image_base64 1.1" 200 60 "-" "okhttp/4.9.3"
+INFO:root:TF Serving response time 0.057193
+INFO:root:Endpoint response time 3.071103811264038
+[2022-06-14 01:03:20 +0700] [8464] [INFO] 127.0.0.1:64471 - - [14/Jun/2022:01:03:20 +0700] "POST /still_image_base64 1.1" 200 49 "-" "okhttp/4.9.3"
+INFO:hypercorn.error:Running on http://127.0.0.1:8080 (CTRL + C to quit)
+INFO:root:TF Serving response time 0.532605
+INFO:root:Endpoint response time 1.1400649547576904
+INFO:root:TF Serving response time 0.040799
+INFO:root:Endpoint response time 1.2323288917541504
+INFO:root:TF Serving response time 0.038644
+INFO:root:TF Serving response time 0.03507
+INFO:root:Endpoint response time 1.3084828853607178
+INFO:root:TF Serving response time 0.036934
+INFO:root:TF Serving response time 0.034136
+INFO:root:TF Serving response time 0.031747
+INFO:root:TF Serving response time 0.033776
+INFO:root:TF Serving response time 0.035173
+INFO:root:Endpoint response time 1.1077039241790771
+INFO:root:TF Serving response time 0.049482
+INFO:root:Endpoint response time 2.2915501594543457
+INFO:root:TF Serving response time 0.034014
+INFO:root:TF Serving response time 0.038749
+INFO:root:TF Serving response time 0.037948
+INFO:root:TF Serving response time 0.042955
+INFO:root:TF Serving response time 0.037412
+INFO:root:Endpoint response time 0.6027219295501709
+INFO:root:TF Serving response time 0.048101
+INFO:root:TF Serving response time 0.036873
+INFO:root:TF Serving response time 0.032954
+INFO:root:TF Serving response time 0.040031
+INFO:root:Endpoint response time 0.8540780544281006
+INFO:root:TF Serving response time 0.044276
+INFO:root:Endpoint response time 0.2069711685180664
+INFO:root:TF Serving response time 0.035142
+INFO:root:Endpoint response time 4.84946608543396
+INFO:root:TF Serving response time 0.042133
+INFO:root:Endpoint response time 4.109171390533447
+INFO:root:TF Serving response time 0.042806
+INFO:root:TF Serving response time 0.036355
+INFO:root:TF Serving response time 0.038608
+INFO:root:TF Serving response time 0.037664
+INFO:root:TF Serving response time 0.037024
+INFO:root:Endpoint response time 1.2223320007324219
+INFO:root:TF Serving response time 0.035834
+INFO:root:TF Serving response time 0.036371
+INFO:root:TF Serving response time 0.037418
+INFO:root:TF Serving response time 0.034371
+INFO:root:Endpoint response time 1.0951800346374512
+INFO:root:TF Serving response time 0.034926
+INFO:root:TF Serving response time 0.034847
+INFO:root:TF Serving response time 0.036738
+INFO:root:TF Serving response time 0.033448
+INFO:root:TF Serving response time 0.035234
+INFO:root:Endpoint response time 0.9830551147460938
+INFO:root:TF Serving response time 0.037052
+INFO:root:TF Serving response time 0.034958
+INFO:root:TF Serving response time 0.036641
+INFO:root:TF Serving response time 0.035721
+INFO:root:TF Serving response time 0.034114
+INFO:root:Endpoint response time 0.8809287548065186
+INFO:root:TF Serving response time 0.034627
+INFO:root:Endpoint response time 0.3137650489807129
+INFO:root:TF Serving response time 0.037725
+INFO:root:Endpoint response time 0.21287751197814941
+INFO:root:TF Serving response time 0.036872
+INFO:root:Endpoint response time 0.19113516807556152
+INFO:root:TF Serving response time 0.03419
+INFO:root:Endpoint response time 0.9946990013122559
+INFO:root:TF Serving response time 0.038389
+INFO:root:Endpoint response time 0.05772805213928223
+INFO:root:TF Serving response time 0.034864
+INFO:root:Endpoint response time 0.1110692024230957
+INFO:root:TF Serving response time 0.037953
+INFO:root:Endpoint response time 0.0571441650390625
